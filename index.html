@@ -7,10 +7,6 @@
 <body>
   <header class="page-header"></header>
   <nav class="main-nav">
-    <a class="main-nav__logo">
-    <img class="main-nav__logo-image" src="source/img/logotype-mobile.svg" width="#" height="#" alt="Седона">
-    </a>
-    <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
     <div class="main-nav_wrapper">
       <ul class="main-nav__list site-list">
         <li class="site-list__item site-list__item--active">
@@ -27,19 +23,23 @@
         </li>
       </ul>
     </div>
+    <a class="main-nav__logo">
+    <img class="main-nav__logo-image" src="source/img/logotype-mobile.svg" width="0" height="0" alt="Седона">
+    </a>
+    <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
   </nav>
   <main class="page-main">
 
     <section class="intro">
       <div class="intro__wrapper">
-        <img class="intro__title-image" src="source/img/title.png" width="#" height="#" alt="Добро пожаловать в Седону">
+        <img class="intro__title-image" src="source/img/title.png" width="0" height="0" alt="Добро пожаловать в Седону">
         <h1 class="intro__title-text"> Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
       </div>
     </section>
 
     <section class="features">
+      <h2 class="features__main-title">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
       <ul class="features__list">
-        <h2 class="features__main-title">Рассмотрим 5 причини, по которым Седона круче, чем Гранд Каньон!</h2>
         <li class="features__item">
           <h3 class="features__title">Настоящий городок</h3>
           <span class="features__number">- № 1 -</span>
@@ -48,15 +48,15 @@
         <li class="features__item">
           <ul class="features__promo-list promo">
             <li class="promo__item promo__item--lodging">
-              <h3 class="promo__tittle">Жилье<h3>
+              <h3 class="promo__tittle">Жилье</h3>
               <p class="promo__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
             </li>
             <li class="promo__item promo__item--souvenirs">
-              <h3 class="promo__tittle">Сувениры<h3>
+              <h3 class="promo__tittle">Сувениры</h3>
               <p class="promo__description">Не только китайского, но и местного производства!</p>
             </li>
             <li class="promo__item promo__item--food">
-              <h3 class="promo__tittle">Еда<h3>
+              <h3 class="promo__tittle">Еда</h3>
               <p class="promo__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
             </li>
           </ul>
@@ -94,8 +94,9 @@
     </section>
 
     <section class="map">
+      <h2 class="visually-hidden">Карта</h2>
       <p>
-        <img class="map__static-image" src="source/img/map.jpeg" width="#" height="#" alt="Соединённые Штаты Америки, штат Аризона, Коконино-Каунти, Седона">
+        <img class="map__static-image" src="source/img/map.jpeg" width="0" height="0" alt="Соединённые Штаты Америки, штат Аризона, Коконино-Каунти, Седона">
       </p>
     </section>
   </main>
