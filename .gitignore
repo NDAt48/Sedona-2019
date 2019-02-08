@@ -1,3 +1,5 @@
+build
+node_modules/
 .DS_Store
 .idea
 *.ai
@@ -5,7 +7,6 @@
 *.pdf
 *.psd
 *.sublime*
-node_modules/
 npm-debug.*
-sorce/css/*.css
+src/css/*.css
 Thumbs.db
